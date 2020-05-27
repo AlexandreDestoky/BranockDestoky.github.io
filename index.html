@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Projet Meridian Sun</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/framework/index.css" />
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <div class="boite-fixe fond-blanc">
+    <!-- HEADER -->
+    <header>
+      <div class="en-tete grille">
+        <h1 class="m6"><a href=index.html>The Meridian Sun</a></h1>
+        <div class="reseaux-sociaux m6">
+          <ul>
+            <li><a href="#"><img src="media/icon-rss.png" alt="RSS Icon"></a></li>
+            <li><a href="#"><img src="media/icon-facebook.png" alt="Facebook Icon"></a></li>
+            <li><a href="#"><img src="media/icon-twitter.png" alt="Twitter Icon"></a></li>
+            <li><a href="#"><img src="media/icon-dribbble.png" alt="Dribbble Icon"></a></li>
+            <li><a href="#"><img src="media/icon-linkedin.png" alt="Linkedin Icon"></a></li>
+            <li><a href="#"><img src="media/icon-pinterest.png" alt="Pinterest Icon"></a></li>
+            <li class="formulaire-recherche">
+              <!-- BARRE DE RECHERCHE -->
+              <form action="index.html" method="get">
+                <input class="recherche-barre" type="search" id="search" name="search" placeholder="Search">
+                <input class="recherche-btn" type="image" id="loupe" name="loupe" src="media/icon-search.png" alt="Icone recherche">
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- FLECHE GAUCHE ET DROITE EN ECRAN L -->
+      <span class="material-icons fleche fleche-gauche xs-cache l-visible"><a href="#">keyboard_arrow_left</a></span>
+      <span class="material-icons fleche fleche-droite xs-cache l-visible"><a href="#">keyboard_arrow_right</a></span>
+      <!-- FIN FLECHE GAUCHE ET DROITE -->
+
+      <!-- MENU EN "M" et "L" -->
+      <nav class="xs-cache m-visible menu-m-horizontal">
+        <ul>
+          <li><a href="post.html">BLOG</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+      <!-- MENU EN "S" -->
+      <nav class="xs-visible m-cache menu-select">
+        <select name="menuSelect" class="selection" onchange="location = this.value;">
+          <option>---MENU--</option>
+          <option value="index.html">Home</option>
+          <option value="post.html">Blog</option>
+          <option value="about.html">About</option>
+          <option value="contact.html">Contact</option>
+        </select>
+      </nav>
+    </header>
+    <!-- FIN DU HEADER -->
+
+
+    <!-- SECTION -->
+    <section>
+      <!-- INTRO -->
+      <div class="introduction">
+        <p>Hello! Welcome to my blog. I am The Meridian Sun. Here on this blog you will be
+        able to find my photography work as well as everything I like across the internet world.</p>
+      </div>
+
+      <!-- 1er ARTICLE -->
+      <article>
+        <h2>A WONDERFUL COMPLEXITY</h2>
+        <ul>
+          <li><img src="media/icon-gallery.png" alt="Icone de gallerie photos"></li>
+          <li><a href="#"><time datetime="2020-05-21">May 21, 2020</time></a></li>
+          <li><a href="#">Photography</a></li>
+          <li><a href="#">4 Comments</a></li>
+        </ul>
+        <figure class="media-article">
+          <img src="media/post1.jpg" alt="Fille avec peluche">
+        </figure>
+        <p>A Wonderful Complexity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+          I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+          mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that Ineglect my talents.</p>
+      </article>
+
+      <!-- 2ème ARTICLE -->
+      <article>
+        <h2>TRIPPING OUT - LED BY A DRESSED MONKEY</h2>
+        <ul>
+          <li><img src="media/icon-video.png" alt="Icone de Bande Cinéma"></li>
+          <li><a href="#"><time datetime="2020-05-19">May 19, 2020</time></a></li>
+          <li><a href="#">Videography</a></li>
+          <li><a href="#">1 Comment</a></li>
+        </ul>
+        <div class="media-article video-youtube">
+          <iframe src="https://www.youtube.com/embed/JZrQahZpeHQ"></iframe>
+        </div>
+        <p>Filmed on Mars 5, 2020, a mostly first-person chronicle of the day's events leading up
+          to a performance in Wollongong, Australia. Shot on Canon 5D mkII with 50mm 1.2 and 24-70 lenses.</p>
+      </article>
+
+      <!-- 3ème ARTICLE -->
+      <article>
+        <h2>FLYINGPOOL - GOLDMINE</h2>
+        <ul>
+          <li><img src="media/icon-audio.png" alt="Icone de note de musique"></li>
+          <li><a href="#"><time datetime="2020-05-18">May 18, 2020</time></a></li>
+          <li><a href="#">Music</a></li>
+          <li><a href="#">No Comments</a></li>
+        </ul>
+        <div class="media-article music-soundcloud">
+          <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/717394618&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        </div>
+        <p><span>FLyingPool</span> est un projet dreampop aux accents parfois shoegaze parfois folk
+        et issu de la collaboration entre Elena Lacroix (chant, guitare, clavier) et Antoine Colen (batterie, guitare),
+        deux multi-instrumentistes qui partagent une même passion : créer des mélodies sensibles et envoutantes. Le
+        groupe est accompagné sur scène d'une série de synthétiseurs pour former des nappes atmosphériques et des
+        basses rondes.</p>
+      </article>
+
+      <!-- 4ème ARTICLE -->
+      <article>
+        <h2>A DAY IN THE LIFE</h2>
+        <ul>
+          <li><img src="media/icon-gallery.png" alt="Gallery Icon"></li>
+          <li><a href="#"><time datetime="2020-05-17">May 17, 2020</time></a></li>
+          <li><a href="#">Photography</a></li>
+          <li><a href="#">No Comments</a></li>
+        </ul>
+        <figure class="media-article">
+          <img src="media/post2.jpg" alt="Rail train sur pont">
+        </figure>
+        <p>He must have tried it a hundred times, shut his eyes so that he wouldn't have to look at the floundering legs, and only stopped when
+          he began to feel a mild, dull pain there that he had never felt before.</p>
+        <p>"Oh, God", he thought, "what a strenuous career it is that I've chosen! Travelling day in and day out.</p>
+      </article>
+
+      <!-- BOUTON FOND PAGE -->
+      <div class="bouton-fond-page">
+        <ul>
+          <li><a href="#" class="btn btn-active">1</a></li>
+          <li><a href="#" class="btn btn-primary">2</a></li>
+          <li><a href="#" class="btn btn-primary">3</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- FIN DE LA SECTION -->
+
+    <!-- DÉBUT DU FOOTER -->
+    <footer>
+      <aside class="grille grille-gouttiere">
+
+      <!-- SEARCH -->
+        <section class="m3">
+          <h3>SEARCH</h3>
+          <form action="traitement.php" method="get">
+            <input type="search" placeholder=" Search">
+          </form>
+        </section>
+
+        <!-- RECENT POSTS -->
+        <section class="m3 m-r2 decale">
+          <h3>RECENT POSTS</h3>
+          <ul>
+            <li><a href="#">A Wonderful Complexity</a></li>
+            <li><a href="#">The Meridian Sun</a></li>
+            <li><a href="#">Gallery Format</a></li>
+            <li><a href="#">John Doe</a></li>
+            <li><a href="#">A Day In The Life</a></li>
+          </ul>
+        </section>
+
+        <!-- TWITTER -->
+        <section class="m3 m-r2">
+          <h3>TWITTER</h3>
+          <div><a href="#">->Follow @iepsdesign</a></div>
+        </section>
+
+        <!-- TAGS -->
+        <section class="m3">
+          <h3>TAGS</h3>
+          <div>
+            <a href="#" class="contenu-petit">blogroll</a>
+            <a href="#" class="contenu-grand">daily</a>
+            <a href="#" class="contenu-petit">dialog</a>
+            <a href="#" class="contenu-petit">gallery</a>
+            <a href="#" class="contenu-petit">journal</a>
+            <a href="#" class="contenu-petit">link</a>
+            <a href="#" class="contenu-petit">motion</a>
+            <a href="#" class="contenu-petit">music</a>
+            <a href="#" class="contenu-grand">photo</a>
+            <a href="#" class="contenu-medium">professional</a>
+            <a href="#" class="contenu-petit">quotation</a>
+            <a href="#" class="contenu-petit">show</a>
+            <a href="#" class="contenu-petit">sound</a>
+            <a href="#" class="contenu-petit">tv</a>
+            <a href="#" class="contenu-petit">video</a>
+          </div>
+        </section>
+
+        <!-- ARCHIVES -->
+        <section class="m3 decalefort">
+          <h3>ARCHIVES</h3>
+          <ul>
+            <li><a href="#">May 2020</a></li>
+            <li><a href="#">April 2020</a></li>
+          </ul>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="m3 m-r2">
+          <h3>ABOUT</h3>
+          <p>I am alone, and feel the charm of existence in this spot, which was created
+            for the bliss of souls like mine.</p>
+          <p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence,
+            that I neglect my talents.</p>
+        </section>
+      </aside>
+
+        <!-- FOND COPYRIGHT -->
+        <div class="copyright">&copy;Copyright 2020 - The Meridian Sun</div>
+    </footer>
+  </div>
+  <script src="js/framework/menu.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "CreativeWork",
+    "name": "The Meridian Sun",
+    "about" : [
+      {
+        "@type" : "CreativeWork",
+        "dateCreated" : "2020-05-21",
+        "name" : "A WONDERFUL COMPLEXITY",
+        "image" : "media/icon-gallery.jpg",
+        "discussionUrl" : "#"
+      },
+      {
+        "@type" : "CreativeWork",
+        "dateCreated" : "2020-05-19",
+        "name" : "TRIPPING OUT - LED BY A DRESSED MONKEY",
+        "image" : "media/icon-video.png",
+        "discussionUrl" : "#"
+
+      },
+      {
+        "@type" : "CreativeWork",
+        "dateCreated" : "2020-05-18",
+        "name" : "FLYINGPOOL - GOLDMINE",
+        "image" : "media/icon-audio.png",
+        "discussionUrl" : "#"
+
+      },
+      {
+        "@type" : "CreativeWork",
+        "dateCreated" : "2020-05-17",
+        "name" : "A DAY IN THE LIFE",
+        "image" : "media/icon-gallery.jpg",
+        "discussionUrl" : "#"
+      }
+    ]
+  }
+  </script>
+</body>
+</html>

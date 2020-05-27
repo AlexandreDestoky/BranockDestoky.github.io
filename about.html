@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Projet Meridian Sun</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/framework/index.css" />
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <div class="boite-fixe fond-blanc">
+    <!-- HEADER -->
+    <header>
+      <div class="en-tete grille">
+        <h1 class="m6"><a href=index.html>The Meridian Sun</a></h1>
+        <div class="reseaux-sociaux m6">
+          <ul>
+            <li><a href="#"><img src="media/icon-rss.png" alt="RSS Icon"></a></li>
+            <li><a href="#"><img src="media/icon-facebook.png" alt="Facebook Icon"></a></li>
+            <li><a href="#"><img src="media/icon-twitter.png" alt="Twitter Icon"></a></li>
+            <li><a href="#"><img src="media/icon-dribbble.png" alt="Dribbble Icon"></a></li>
+            <li><a href="#"><img src="media/icon-linkedin.png" alt="Linkedin Icon"></a></li>
+            <li><a href="#"><img src="media/icon-pinterest.png" alt="Pinterest Icon"></a></li>
+            <li class="formulaire-recherche">
+              <!-- BARRE DE RECHERCHE -->
+              <form action="index.html" method="get">
+                <input class="recherche-barre" type="search" id="search" name="search" placeholder="Search">
+                <input class="recherche-btn" type="image" id="loupe" name="loupe" src="media/icon-search.png" alt="Icone recherche">
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- FLECHE GAUCHE ET DROITE EN ECRAN L -->
+      <span class="material-icons fleche fleche-gauche xs-cache l-visible"><a href="#">keyboard_arrow_left</a></span>
+      <span class="material-icons fleche fleche-droite xs-cache l-visible"><a href="#">keyboard_arrow_right</a></span>
+      <!-- FIN FLECHE GAUCHE ET DROITE -->
+
+      <!-- MENU EN "M" et "L" -->
+      <nav class="xs-cache m-visible menu-m-horizontal">
+        <ul>
+          <li><a href="post.html">BLOG</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+      <!-- MENU EN "S" -->
+      <nav class="xs-visible m-cache menu-select">
+        <select name="menuSelect" class="selection" onchange="location = this.value;">
+          <option>---MENU--</option>
+          <option value="index.html">Home</option>
+          <option value="post.html">Blog</option>
+          <option value="about.html">About</option>
+          <option value="contact.html">Contact</option>
+        </select>
+      </nav>
+    </header>
+    <!-- FIN DU HEADER -->
+
+
+    <!-- SECTION PRINCIPALE -->
+    <section>
+      <!-- FIL D'ARIANE -->
+      <div class="fil-ariane">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>About</li>
+        </ul>
+      </div>
+
+      <!-- 1er ARTICLE -->
+      <article>
+        <h2>ABOUT</h2>
+        <div class="conteneur-about">
+          <figure class="img-float">
+            <img src="media/about.jpg" alt="homme main sur visage en noir et blanc">
+          </figure>
+          <div class="texte-about">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum commodi voluptates
+            enim praesentium sint dolores veritatis suscipit dolor, ab fuga iure delectus facere, quas
+            iste tempora mollitia, officiis nemo. Quae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit aliquid, consectetur
+            omnis adipisci ducimus numquam dolores ullam aut quidem voluptas cupiditate unde sed,
+            eaque atque eius ipsa nesciunt sequi iure!Consequatur, provident reprehenderit assumenda
+            fuga tempore cum. Beatae nihil exercitationem officiis aliquid, sit, fugiat ad corporis
+            modi suscipit maiores non iste eveniet aut quibusdam doloribus vitae? Ipsum distinctio,
+            quam voluptatibus.</p>
+            <h3>FERMENTUM PURUS IPSUM</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit aliquid, consectetur
+            omnis adipisci ducimus numquam dolores ullam aut quidem voluptas cupiditate unde sed,
+            eaque atque eius ipsa nesciunt sequi iure!Consequatur, provident reprehenderit assumenda
+            fuga tempore cum. Beatae nihil exercitationem officiis aliquid, sit, fugiat ad corporis
+            modi suscipit maiores non iste eveniet aut quibusdam doloribus vitae? Ipsum distinctio,
+            quam voluptatibus.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum commodi voluptates
+            enim praesentium sint dolores veritatis suscipit dolor, ab fuga iure delectus facere, quas
+            iste tempora mollitia, officiis nemo. Quae.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!-- FIN DE LA SECTION PRINCIPALE -->
+
+    <!-- DÉBUT DU FOOTER -->
+    <footer>
+      <aside class="grille grille-gouttiere">
+
+      <!-- SEARCH -->
+        <section class="m3">
+          <h3>SEARCH</h3>
+          <form action="traitement.php" method="get">
+            <input type="search" placeholder=" Search">
+          </form>
+        </section>
+
+        <!-- RECENT POSTS -->
+        <section class="m3 m-r2 decale">
+          <h3>RECENT POSTS</h3>
+          <ul>
+            <li><a href="#">A Wonderful Complexity</a></li>
+            <li><a href="#">The Meridian Sun</a></li>
+            <li><a href="#">Gallery Format</a></li>
+            <li><a href="#">John Doe</a></li>
+            <li><a href="#">A Day In The Life</a></li>
+          </ul>
+        </section>
+
+        <!-- TWITTER -->
+        <section class="m3 m-r2">
+          <h3>TWITTER</h3>
+          <div><a href="#">->Follow @iepsdesign</a></div>
+        </section>
+
+        <!-- TAGS -->
+        <section class="m3">
+          <h3>TAGS</h3>
+          <div>
+            <a href="#" class="contenu-petit">blogroll</a>
+            <a href="#" class="contenu-grand">daily</a>
+            <a href="#" class="contenu-petit">dialog</a>
+            <a href="#" class="contenu-petit">gallery</a>
+            <a href="#" class="contenu-petit">journal</a>
+            <a href="#" class="contenu-petit">link</a>
+            <a href="#" class="contenu-petit">motion</a>
+            <a href="#" class="contenu-petit">music</a>
+            <a href="#" class="contenu-grand">photo</a>
+            <a href="#" class="contenu-medium">professional</a>
+            <a href="#" class="contenu-petit">quotation</a>
+            <a href="#" class="contenu-petit">show</a>
+            <a href="#" class="contenu-petit">sound</a>
+            <a href="#" class="contenu-petit">tv</a>
+            <a href="#" class="contenu-petit">video</a>
+          </div>
+        </section>
+
+        <!-- ARCHIVES -->
+        <section class="m3 decalefort">
+          <h3>ARCHIVES</h3>
+          <ul>
+            <li><a href="#">May 2020</a></li>
+            <li><a href="#">April 2020</a></li>
+          </ul>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="m3 m-r2">
+          <h3>ABOUT</h3>
+          <p>I am alone, and feel the charm of existence in this spot, which was created
+            for the bliss of souls like mine.</p>
+          <p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence,
+            that I neglect my talents.</p>
+        </section>
+      </aside>
+
+        <!-- FOND COPYRIGHT -->
+        <div class="copyright">&copy;Copyright 2020 - The Meridian Sun</div>
+    </footer>
+  </div>
+  <script src="js/framework/menu.js"></script>
+</body>
+</html>
